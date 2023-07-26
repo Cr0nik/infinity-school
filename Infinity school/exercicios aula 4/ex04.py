@@ -1,8 +1,8 @@
-condicao = None
+condicao = True
 n1 = int(input('Digite o primeiro número:'))
 n2 = int(input('Digite o segundo número:'))
 
-while condicao != False:
+while condicao:
     acao = int(input('''Qual ação você deseja fazer? Lembrando que: 
      [1]: somar 
      [2]: multiplicar 
